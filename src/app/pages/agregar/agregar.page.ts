@@ -23,7 +23,6 @@ export class AgregarPage {
 
     const listaId =  this.activateRoute.snapshot.paramMap.get('listaId');
     this.lista =  this.deseosService.obtenerLista( listaId );
-    console.log( this.lista );
    }
 
    agregarItem(){
