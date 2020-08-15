@@ -15,12 +15,10 @@ export class AgregarPage {
   descripItem: string;
 
   constructor( private deseosService: DeseosService, private activateRoute: ActivatedRoute ) {
-
     /* De esta forma genero un observable para leer el parametro que viene de la URL */
     /* this.activateRoute.params.subscribe( params => {
        this.lista =  this.deseosService.obtenerLista( params['listaId'] )
     }); */
-
     const listaId =  this.activateRoute.snapshot.paramMap.get('listaId');
     this.lista =  this.deseosService.obtenerLista( listaId );
    }

@@ -14,7 +14,7 @@ import { ListasComponent } from '../../components/listas/listas.component';
     IonicModule,
     CommonModule,
     FormsModule,
-    TabsPageRoutingModule    
+    TabsPageRoutingModule
   ],
   declarations: [TabsPage]
 })

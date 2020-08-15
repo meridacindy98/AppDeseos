@@ -18,7 +18,7 @@ import { ComponentsModule } from '../../components/components.module';
     ExploreContainerComponentModule,
     Tab2PageRoutingModule,
     ComponentsModule
-  
+
   ],
   declarations: [Tab2Page]
 })

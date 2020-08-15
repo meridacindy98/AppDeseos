@@ -14,6 +14,7 @@ export class Tab1Page {
   constructor( public deseoService: DeseosService, private router: Router, private alertController: AlertController ) {}
 
   async agregarLista(){
+    console.log("boton agregar");
     const alert =  await this.alertController.create({
       cssClass: 'my-custom-class',
       header: 'Nueva lista',
